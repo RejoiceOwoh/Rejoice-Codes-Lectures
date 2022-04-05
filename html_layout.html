@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rejoice Codes</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = 'stylesheet' href="html_layout_style.css">
+</head>
+<body>
+
+<h2>HTML Layout</h2>
+<p>In HTML you can use Semantic elements to structure yout site, how it looks like and the basic details of your site in such a way that it could be properly understood by the browser</p>
+<p>Resize the browser window to see the responsive effect.</p>
+<p><strong>Note:</strong> HTML only understands the layout you are using but the design and the structure is done with CSS</p>
+
+<header>
+  <h2>Rejoice</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Nav 1</a></li>
+      <li><a href="#">Nav 2</a></li>
+      <li><a href="#">Nav 3</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>I am an article header</h1>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolore cumque reprehenderit sunt quam distinctio quia voluptas libero sit quas, ipsa perspiciatis quos eius corporis, totam illum optio magnam tempora.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eius reiciendis, inventore asperiores quasi distinctio, illum recusandae itaque voluptatem quia soluta obcaecati numquam minima fugit eligendi nam! Magni, eius pariatur?lore</p>
+    <figure>
+        <img src="images/img1.jpg" alt ="I am a figure" width="100%" height="auto">
+        <figcaption> I caption the <b> figure</b> in an image </figcaption>
+      </figure>
+    <p><samp>I am inside a sample tag<br>Click here to continue</samp></p>
+    <pre>
+    <code>
+        a = 2;
+        b = 7;
+        c = a + b;
+    </code> 
+  </pre>
+
+    I am an entity &lt; or &#60; and &intlarhk;
+    <!--Link to all HTML Entities is in the description-->
+
+    10&nbsp;Km will not be broken though with a space in between because it is preserved with a non-breaking space
+    I will display &#128518
+
+    <p>
+        
+        <h2>Welcome to HTML Forms</h2>
+        <form>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="fname"><br>
+
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lname"><br>
+
+            <label for="email" >Enter your email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+
+            <input type="hidden" id="entrycode" name="entrycode" value="3487">
+            
+            Choose your preferred Web Language<br><input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor"><br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+
+            <label for="datemax">Enter a date before 2022-05-02:</label>
+            <input type="date" id="datemax" name="datemax" max="2022-05-02"><br><br>
+
+            <label for="datemin">Enter a date after 2005-02-28:</label>
+            <input type="date" id="datemin" name="datemin" min="2005-02-28"><br>
+
+            <label for="birthdaytime">Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                        
+            <br><br>
+
+            <label for="course">Choose a Course:</label> 
+            <select id="course" name="cars" size="1">
+                <option value="react">React JS</option>
+                <option value="MongoDB">MongoDB</option>
+                <option value="sql">SQL</option>
+                <option value="PHP">PHP</option>
+            </select><br><br>
+            <label for="textarea">Textarea:</label>
+            <textarea name="message" id="texarea" rows="5" cols="2">
+                I am the first text inside this box &#128519
+            </textarea><br>
+            <button type="button" >Rejoice Button!</button><br><br>
+            <input list="Names">
+            <datalist id="Names">
+                <option value="Reinhard">
+                <option value="Billy">
+                <option value="Benson">
+                <option value="Peter">
+                <option value="Joshua">
+            </datalist>
+            <input type="submit" value="Submit">
+        </form>
+    </p>
+  </article>
+</section>
+
+<footer>
+  <p>I am the distinguished footer of this site</p>
+</footer>
+
+</body>
+</html>
+

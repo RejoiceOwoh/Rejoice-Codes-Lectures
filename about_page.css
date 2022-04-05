@@ -1,0 +1,15 @@
+.relative {
+}
+
+.fixed {
+   align-items: center;
+}
+.img1 {
+    float: left;
+}
+.img2 {
+    float: right;
+}
+div,p {
+    clear: right;
+}
